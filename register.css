@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#form{
+    border: 1px black solid;
+    width: 50vw;
+    margin: auto;
+}
+
+
+#form form div{
+    display: flex;
+    flex-direction: column;
+}
+
+.warning{
+    color: red;
+    margin: 0;
+}
+
+.split{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.split p{
+    display: inline;
+}
+
+
