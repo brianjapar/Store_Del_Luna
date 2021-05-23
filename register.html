@@ -14,49 +14,49 @@
     <div class="bg-img"></div>
     <div id="form">
         <form action="">
-            <div id="title">Store Del Luna</div>
-            <div>
+            <div id="title" class="up-down">Store Del Luna</div>
+            <div class="up-down">
                 <label for="username">Username</label>
                 <input type="text" name="" id="username" class="inputs">
             </div>
-            <div>
+            <div class="up-down">
                 <label for="password">Password</label>
                 <input type="password" name="" id="password" class="inputs">
             </div>
-            <div>
+            <div class="up-down">
                 <label for="confirm-password">Confirm Password</label>
                 <input type="password" name="" id="confirm-password" class="inputs">
             </div>
-            <div>
+            <div class="up-down">
                 <label for="">Full Name</label>
                 <input type="text" name="" id="fullname" class="inputs">
             </div>
-            <div>
-                <label for="">Gender</label>
-                <div class="split">
-                    <span>
-                        <input type="radio" name="gender" id="male">
-                        Male
-                    </span>
-                    <span>
-                        <input type="radio" name="gender" id="female">
-                        Famale
-                    </span>
+            <div class="split">
+                <div>
+                    <label for="">Gender</label>
                 </div>
+                <div>
+                    <input type="radio" name="gender" id="male">
+                    <label for="">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female">  
+                    <label for="">Female</label>
+                </div>  
             </div>
-            <div>
+            <div class="up-down">
                 <label for="">Email</label>
                 <input type="text" name="" id="email" class="inputs">
             </div>
-            <div>
+            <div class="up-down">
                 <label for="">Age</label>
                 <input type="number" name="" id="age" class="inputs">
             </div>
-            <div>
+            <div class="up-down">
                 <p><input type="checkbox" name="" id="term">
                 <label for="">I Agree With Term and Conditions</label></p>
             </div>
-            <div>   
+            <div class="up-down">   
                 <button id="register-btn" onclick="return register()">Register</button>
             </div>
         </form>
