@@ -28,6 +28,7 @@ body{
     padding: 20px 30px;
     border-radius: 20px;
     height: 400px;
+    box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.1);
 }
 
 .name{
@@ -45,4 +46,28 @@ body{
 .testimoni span{
     font-weight: bold;
     font-size: 26px;
+}
+
+.job{
+    font-size: 14px;
+}
+
+.rating{
+    margin: 12px 0;
+}
+
+.star{
+    unicode-bidi: bidi-override;
+    color: gold;
+    font-size: 25px;
+    height: 25px;
+    width: 100px;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px #a2a2a2;
+    display: block;
+    z-index: 0;
+}
+
+.uncheck{
+    color: #f9e4d1;
 }
