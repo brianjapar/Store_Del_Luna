@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+
+.header{
+    padding: 18px;
+}
+
+.logo img{
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+}
+
+.logo img:hover{
+    height: 85px;
+    width: 85px;
+}
+
+.dropdown button img{
+    height: 45px;
+    width: 45px;
+}
+
+.dropbtn{
+    text-decoration: none;
+    border: none;
+    background-color:#f9e4d1;
+    cursor: pointer;    
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    left:0;
+    display: none;
+    position: absolute;
+    background-color: #FFA69E;
+    width: 200px;
+    box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+.dropdown:hover .dropbtn{
+    background-color: #FFA69E;
+}
+
+.dropdown-content a {
+    color: #5E6472;
+    padding: 14px 18px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+      background-color: #B8F2E6;
+      font-weight: bold;
+}
+  
+
+
+.header-1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12px;
+}
+
+.header-2, .dropdown{
+    margin-top: 18px;
+}
+
+.register a{
+    margin-right: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #5E6472;
+}
+
+.register a:hover{
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* footer */
+.footer{
+    background-color: #5E6472;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    margin-top: 40px;
+}
+
+.medsos img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.copyright{
+    font-size: 14px;
+}

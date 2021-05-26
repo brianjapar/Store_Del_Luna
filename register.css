@@ -96,7 +96,6 @@ form div p{
     margin-bottom: 7.5px;
 }
 
-
 .split{
     margin: 20px 0;
 }
@@ -115,6 +114,10 @@ button:hover{
     background-color: #FAF3DD;
     color: #AED9E0;
     transition: all 1s;
+}
+
+.agreement label{
+    font-size: 16px;
 }
 
 

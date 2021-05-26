@@ -9,55 +9,6 @@ body{
     background-color: #f9e4d1;
 }
 
-/* header */
-
-.header{
-    padding: 18px;
-}
-
-.logo img{
-    height: 80px;
-    width: 80px;
-    margin-left: 20px;
-}
-
-.logo img:hover{
-    height: 85px;
-    width: 85px;
-}
-
-.dropdown img{
-    height: 45px;
-    width: 45px;
-}
-
-.header-1{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 12px;
-}
-
-.header-2, .dropdown{
-    margin-top: 18px;
-}
-
-.register a{
-    margin-right: 12px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: #5E6472;
-}
-
-.register a:hover{
-    color: white;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-}
-
 
 /* content */
 .content-wrapper{
@@ -152,29 +103,6 @@ i{
 
 #slider-cont img{
     border-radius: 20px;
-}
-
-
-/* footer */
-.footer{
-    background-color: #5E6472;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    padding: 16px;
-    margin-top: 40px;
-}
-
-.medsos img{
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
-}
-
-.copyright{
-    font-size: 14px;
 }
 
 
