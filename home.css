@@ -20,16 +20,26 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 30px 0 30px 0;
+    margin: 40px 0;
 }
 
 .content-1{
-    margin-left: 40px;
-
+    margin: 0 auto;
 }
 
+.content-logo{
+    text-align: center;
+    margin:30px 0;
+}
+
+.content-logo img{
+    height: 100px;
+    width: 100px;
+}
+
+
 .content-1-1{
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     text-align: center;
     font-size: 38px;
 }
