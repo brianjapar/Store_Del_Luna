@@ -5,47 +5,38 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body{
-    background-color: #5E6472;
-}
-
-.bg-img {
-    position: absolute;
-    z-index: -1;
-    background-color: #5E6472;
-    height: 100vh;
-    width: 100vw;
+    background-color: #f9e4d1;
 }
 
 #title{
-    /* font-family: 'Yellowtail'; */
     font-family: 'Parisienne';
     color: #FAF3DD;
     font-size: 48px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #form{
     display: flex;
-    height: 100vh;
 }
 
 #form form {
     color: #FAF3DD;
-    font-family: 'Roboto',
-    sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     color: 5E6472;
-    background-color: #5E6472;
-    /* background-color: rgba(255, 166, 158, 0.8); */
+    background: rgba(94, 100, 114, 0.9);
+    /* background-color: #5E6472; */
     border-radius: 20px;
-    padding: 30px 30px;
+    padding: 30px;
     width: 500px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .inputs{
@@ -54,14 +45,13 @@ body{
     color: #5E6472;
     border: none;
     text-align: center;
-    background-color: #B8F2E6;
-    padding: 5px 5px 5px 5px;
+    background-color: white;
+    padding: 10px;
     transition: all 1s;
     border-radius: 30px;
 }
 
 .inputs:hover, inputs:focus{
-    /* color: #AED9E0; */
     color: #5E6472;
     background-color: #FFA69E;
     transition: all 1s;
@@ -79,12 +69,12 @@ body{
 
 .up-down{
     flex-direction: column;
+    margin: 10px 0;
 }
 
 .warning{
     color: #FFA69E;
-    /* color: #5E6472; */
-    font-size: 18px;
+    font-size: 12px;
     margin: 7.5px 7.5px;
 }
 
@@ -101,42 +91,35 @@ body{
 }
 
 
-.split span #male, .split span #female{
-    /* background-color: red;
-    display: inline-block;
-    width: fit-content; */
-}
-
-.split span label{
-    /* background-color: red; */
-    /* display: inline-block;
-    width: fit-content; */
-}
-
 form div p{
     margin-top: 7.5px;
     margin-bottom: 7.5px;
 }
 
-/* .split span{
-    display: inline;
-    width: fit-content;
-    background-color: red;
-} */
+
+.split{
+    margin: 20px 0;
+}
 
 button{
     border-radius: 20px;
+    border: none;
     font-weight: bold;
     font-size: 20px;
-    color: white;
-    background-color: black;
+    background-color: #FFA69E;
+    color: #536472;
     transition: all 1s;
 }
 
 button:hover{
-    background-color: #FFA69E;
+    background-color: #FAF3DD;
     color: #AED9E0;
     transition: all 1s;
+}
+
+
+#register-btn{
+    padding: 10px 20px;
 }
 
 @media all and (max-width : 600px){

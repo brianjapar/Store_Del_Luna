@@ -23,14 +23,14 @@ const term_check = document.getElementById('term')
     //username
     if(input_username.value == ""){
         const w = document.createElement('div')
-        w.innerHTML = 'username must be filled'
+        w.innerHTML = 'Username must be filled!'
         w.classList.add('warning')
         input_username.parentElement.appendChild(w)
         success = false
     }
     else if(input_username.value.length < 5){
         const w = document.createElement('div')
-        w.innerHTML = 'username must be at least 5 character'
+        w.innerHTML = 'Username must be at least 5 character!'
         w.classList.add('warning')
         input_username.parentElement.appendChild(w)
         success = false
@@ -39,14 +39,14 @@ const term_check = document.getElementById('term')
     //password
     if(input_password.value == ""){
         const w = document.createElement('div')
-        w.innerHTML = 'password cannot be empty'
+        w.innerHTML = 'Password cannot be empty!'
         w.classList.add('warning')
         input_password.parentElement.appendChild(w)
         success = false
     }
     else if(input_password.value.length < 8){
         const w = document.createElement('div')
-        w.innerHTML = 'password length must be atleast 8 character'
+        w.innerHTML = 'Password length must be atleast 8 character!'
         w.classList.add('warning')
         input_password.parentElement.appendChild(w)       
         success = false
@@ -71,7 +71,7 @@ const term_check = document.getElementById('term')
         
         if(low === 0 || up === 0 || num === 0 || sym === 0){
             const w = document.createElement('div')
-            w.innerHTML = 'password must contain lower case, uppercase letter, number, and symbol'
+            w.innerHTML = 'Password must contain lower case, uppercase letter, number, and symbol!'
             w.classList.add('warning')
             input_password.parentElement.appendChild(w)   
             success = false
@@ -82,14 +82,14 @@ const term_check = document.getElementById('term')
     //confirm password
     if(input_confirm.value == ""){
         const w = document.createElement('div')
-        w.innerHTML = 'confirm password must be filled'
+        w.innerHTML = 'Confirm password must be filled!'
         w.classList.add('warning')
         input_confirm.parentElement.appendChild(w) 
         success = false
     }
     else if(input_password.value != input_confirm.value){
         const w = document.createElement('div')
-        w.innerHTML = 'must match with your password'
+        w.innerHTML = 'Confrim password must match with your password!'
         w.classList.add('warning')
         input_confirm.parentElement.appendChild(w) 
         success = false
@@ -99,14 +99,14 @@ const term_check = document.getElementById('term')
     //name
     if(input_fullname.value == ""){
         const w = document.createElement('div')
-        w.innerHTML = 'name must be filled'
+        w.innerHTML = 'Name must be filled!'
         w.classList.add('warning')
         input_fullname.parentElement.appendChild(w)        
         success = false
     }
-    else if(input_fullname < 4){
+    else if(input_fullname.value.length < 4){
         const w = document.createElement('div')
-        w.innerHTML = 'name length must be more than 4 characters'
+        w.innerHTML = 'Name length must be more than 4 characters!'
         w.classList.add('warning')
         input_fullname.parentElement.appendChild(w)   
         success = false 
@@ -115,7 +115,7 @@ const term_check = document.getElementById('term')
     //gender
     if(gender_btn[0].checked == false && gender_btn[1].checked == false){
         const w = document.createElement('div')
-        w.innerHTML = 'gender must be choosed'
+        w.innerHTML = 'Gender must be choosed!'
         w.classList.add('warning')
         gender_btn[0].parentElement.parentElement.parentElement.appendChild(w)
         success = false
@@ -124,7 +124,7 @@ const term_check = document.getElementById('term')
     //email
     if(input_email.value == ""){
         const w = document.createElement('div')
-        w.innerHTML = 'Email must be filled'
+        w.innerHTML = 'Email must be filled!'
         w.classList.add('warning')
         input_email.parentElement.appendChild(w)
         success = false
@@ -159,7 +159,7 @@ const term_check = document.getElementById('term')
 
         if(valid_email == false || countAD  == 0 || countDot == 0){
             const w = document.createElement('div')
-            w.innerHTML = 'must be a valid email'
+            w.innerHTML = 'Must be a valid email (ex: example@testing.com) !'
             w.classList.add('warning')
             input_email.parentElement.appendChild(w)
             success = false
@@ -169,13 +169,13 @@ const term_check = document.getElementById('term')
     //age
     if(input_age.value == ""){
         const w = document.createElement('div')
-        w.innerHTML = 'Age must be filled'
+        w.innerHTML = 'Age must be filled!'
         w.classList.add('warning')
         input_age.parentElement.appendChild(w)
     }
     else if(input_age.value < 17){
         const w = document.createElement('div')
-        w.innerHTML = 'Age must be atleast 17'
+        w.innerHTML = 'Age must be atleast 17!'
         w.classList.add('warning')
         input_age.parentElement.appendChild(w)
     }
@@ -183,7 +183,7 @@ const term_check = document.getElementById('term')
     //term and conditions
     if(term_check.checked == false){
         const w = document.createElement('div')
-        w.innerHTML = 'must be aggree with term and conditions'
+        w.innerHTML = 'You Must be aggree with term and conditions!'
         w.classList.add('warning')
         term_check.parentElement.parentElement.appendChild(w)
         success = false

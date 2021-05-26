@@ -6,28 +6,27 @@ $(function(){
     let curr = 0
     
     $(sliders).hide()
-
     $(sliders.eq(curr)).show()
 
     $('#slide-left').click(()=>{
-        $(sliders).fadeOut(30)
+        $(sliders).fadeOut(100)
         if(curr <= firstPage){
             curr = lastPage
         }
         else{
             curr--
         }
-        $(sliders.eq(curr)).fadeIn(30)
+        $(sliders.eq(curr)).fadeIn(100)
     })
 
     $('#slide-right').click(()=>{
-        $(sliders).fadeOut(30)
+        $(sliders).fadeOut(100)
         if(curr >= lastPage){
             curr = firstPage
         }
         else{
             curr++
         }
-        $(sliders.eq(curr)).fadeIn(30)
+        $(sliders.eq(curr)).fadeIn(100)
     })
 })
