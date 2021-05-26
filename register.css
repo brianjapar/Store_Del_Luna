@@ -81,14 +81,18 @@ body{
 
 .split{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
-.split div{
-    width: 25%;
+.split .gender-div{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.gender-btn{
+    margin-right: 20px;
+    align-self: center;
 }
 
 
