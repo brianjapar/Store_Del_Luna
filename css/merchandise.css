@@ -2,3 +2,83 @@ body{
     color: #5E6472;
     background-color: #f9e4d1;
 }
+
+.content-container{
+    padding: 40px;
+    text-align: center;
+}
+
+.border{
+    width: 160px;
+    height: 5px;
+    background: #FFA69E;
+    margin: 16px auto 100px auto;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 20px 0;
+}
+
+.logo img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.group{
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto 10px;
+}
+
+.list-merch{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.merchs{
+    background: rgba(255, 166, 158, 0.3);
+    color: #5E6472;
+    border-radius: 20px;
+    box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 16px 10px;
+    margin: 0 50px;
+    height: 240px;
+    width: 200px;
+}
+
+.merchs img{
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.merchs img:hover{
+    height: 155px;
+    width: 155px;
+}
+
+.merchs div{
+    margin-top: 10px;
+}
+
+.title{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.content-merch{
+    margin-bottom: 100px;
+}
+
+.more a{
+    float: right;
+    text-decoration: none;
+    color: #AED9E0;
+    font-weight: bold;
+}

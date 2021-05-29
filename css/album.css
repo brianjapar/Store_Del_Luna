@@ -8,6 +8,13 @@ body{
     text-align: center;
 }
 
+.border{
+    width: 160px;
+    height: 5px;
+    background: #FFA69E;
+    margin: 16px auto 100px auto;
+}
+
 .wrap{
     display: flex;
     justify-content: center;
