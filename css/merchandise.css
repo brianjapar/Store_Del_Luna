@@ -54,6 +54,7 @@ body{
     border-radius: 20px;
     height: 150px;
     width: 150px;
+    transition: 0.3s;
 }
 
 .merchs img:hover{

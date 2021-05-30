@@ -1,6 +1,10 @@
 body{
     color: #5E6472;
     background-color: #f9e4d1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content-container{
@@ -39,7 +43,7 @@ body{
 
 .box img{
     width: 100px;
-    height: 100px;
+    height: 105px;
     border-radius: 50%;
 }
 
