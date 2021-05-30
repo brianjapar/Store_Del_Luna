@@ -47,6 +47,10 @@ body{
     border-radius: 50%;
 }
 
+.testimoni{
+    margin: 0 32px 0 32px;
+}
+
 .testimoni span{
     font-weight: bold;
     font-size: 26px;
@@ -57,7 +61,7 @@ body{
 }
 
 .rating{
-    margin: 12px 0;
+    margin: 24px 0 24px 0;
 }
 
 .star{
