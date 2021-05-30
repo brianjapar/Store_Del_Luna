@@ -54,6 +54,13 @@ body{
     margin-left: 40px;
 }
 
+.content2-2{
+    min-height: 525px;
+    min-width: 725px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 .content2-2 .slide{
     width: 750px;

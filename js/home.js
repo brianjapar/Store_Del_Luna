@@ -9,24 +9,24 @@ $(function(){
     $(sliders.eq(curr)).show()
 
     $('#slide-left').click(()=>{
-        $(sliders).fadeOut(100)
+        $(sliders).hide(300).fadeOut(200)
         if(curr <= firstPage){
             curr = lastPage
         }
         else{
             curr--
         }
-        $(sliders.eq(curr)).fadeIn(100)
+        $(sliders.eq(curr)).show(300).fadeIn(200)
     })
 
     $('#slide-right').click(()=>{
-        $(sliders).fadeOut(100)
+        $(sliders).hide(300).fadeOut(200)
         if(curr >= lastPage){
             curr = firstPage
         }
         else{
             curr++
         }
-        $(sliders.eq(curr)).fadeIn(100)
+        $(sliders.eq(curr)).show(300).dafeIn(200)
     })
 })
