@@ -108,3 +108,15 @@
 .copyright{
     font-size: 14px;
 }
+
+
+/* responsive design footer: Mobile 425px */
+@media only screen and (max-width: 425px) {
+    .copyright{
+        font-size: 12px;
+    }
+    .medsos img{
+        height: 24px;
+        width: 24px;
+    }
+}

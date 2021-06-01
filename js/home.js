@@ -27,6 +27,6 @@ $(function(){
         else{
             curr++
         }
-        $(sliders.eq(curr)).show(300).dafeIn(200)
+        $(sliders.eq(curr)).show(300).fadeIn(200)
     })
 })
