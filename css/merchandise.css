@@ -80,6 +80,32 @@ body{
 .more a{
     float: right;
     text-decoration: none;
-    color: #AED9E0;
+    color: #5ac3d3;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .merchs{
+        padding: 10px 5px 10px 5px;
+        margin: 0 10px;
+        height: auto;
+    }
+    
+    .title{
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .price{
+        font-size: 10px;
+    }
+    .more a{
+        float: none;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .list-merch{
+        flex-wrap: wrap;
+    }
 }
