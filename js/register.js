@@ -172,13 +172,20 @@ const term_check = document.getElementById('term')
         w.innerHTML = 'Age must be filled!'
         w.classList.add('warning')
         input_age.parentElement.appendChild(w)
-    }
-    else if(input_age.value < 17){
+    }else if(isNaN(input_age.value)){
         const w = document.createElement('div')
-        w.innerHTML = 'Age must be atleast 17!'
+        w.innerHTML = 'Age must be number!'
         w.classList.add('warning')
         input_age.parentElement.appendChild(w)
+    }else{
+        if(input_age.value < 17){
+            const w = document.createElement('div')
+            w.innerHTML = 'Age must be atleast 17!'
+            w.classList.add('warning')
+            input_age.parentElement.appendChild(w)
+        }
     }
+    
 
     //term and conditions
     if(term_check.checked == false){
