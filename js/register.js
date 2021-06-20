@@ -10,6 +10,7 @@ const gender_btn = document.getElementsByName('gender')
 const input_email = document.getElementById('email')
 const input_age = document.getElementById('age')
 const term_check = document.getElementById('term')
+const address_input = document.getElementById('address')
 
     //bersihkan warning
     let warnings = document.querySelectorAll('.warning')
@@ -186,6 +187,13 @@ const term_check = document.getElementById('term')
         }
     }
     
+    //address
+    if(address_input.value.trim() == ""){
+        const w = document.createElement('div')
+        w.innerHTML = 'Address must be filled'
+        w.classList.add('warning')
+        address_input.parentElement.appendChild(w)
+    }
 
     //term and conditions
     if(term_check.checked == false){
